@@ -32,8 +32,8 @@ else: #없으면
     wb.save('crawling.xlsx') # 만들어요~
     sheet = wb.active #그리고 sheet 활성화
     sheet["A1"] = 'Date'
-    sheet["B1"] = 'Aggregate US Market Value'
-    sheet["C1"] = 'Annualized GDP'
+    sheet["B1"] = 'Aggregate US Market Value($T)'
+    sheet["C1"] = 'Annualized GDP($T)'
     sheet["D1"] = 'Buffett Indicator'
 
 n=1 # n = 1
